@@ -1,4 +1,4 @@
-//import file reading module
+//import file reading moduleaaa
 const fs = require('fs');
 //import the database 
 const db = require('./database/database');
@@ -30,7 +30,7 @@ client.on('error', (e) => {
 });
 
 client.on("messageCreate", async (msg) => {
-  if(msg.content.match(/zaz/gm))
+  if (msg.content.match(/zaz/gm))
     msg.delete();
 });
 
